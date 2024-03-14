@@ -1,66 +1,93 @@
 import { ReactNode } from 'react'
-import { BrowserRouter, Routes, Route , Navigate, useNavigate } from 'react-router-dom'; 
-import { Icon } from '@iconify/react';
-import Logo from './assets/Logo.png';
+import { Icon } from '@iconify/react'
+import Logo from './assets/Logo.png'
 import { Tooltip } from 'react-tooltip'
+import Content from './components/Content'
 
-import Home from './components/home';
-import About from './components/about';
+const scrollToTop = () => 
+{
+  window.scrollTo
+  (
+    {
+      top: 0,
+      behavior: 'smooth'
+    }
+  )
+}
+
+const scrollToBottom = () => 
+{
+  window.scrollTo
+  (
+    {
+      top: document.documentElement.scrollHeight,
+      behavior: 'smooth'
+    }
+  )
+}
+
+const scrollToDiv = (id: string) => 
+{
+  const element = document.getElementById(id)
+
+  if (element) element.scrollIntoView({ behavior: 'smooth' })
+}
 
 const SideBar: React.FC = () =>
 {
-  const navigate = useNavigate();
   return(
-        <nav className='h-screen w-24 p-3 bg-secondary flex flex-col justify-between items-center'>
+        <nav className='h-screen sticky top-0 w-24 p-3 bg-secondary flex flex-col justify-between items-center'>
           <Tooltip id="tooltip" place="right" />
-          <img src={Logo} className='max-h-20' alt='Logo'/>
+          <img src={Logo} className='max-h-20' alt='Logo'  onClick={ scrollToTop }/>
           <div className='flex flex-col items-center gap-8'>
             <Icon 
               icon="tabler:home" 
               className='h-10 w-10 text-white' 
               data-tooltip-id="tooltip" data-tooltip-content="Home"
-              onClick={()=>{navigate('/Home')}}
+              onClick={() => scrollToDiv('home')}
             />
-            
             <Icon 
-              icon="f7:person"  
+              icon="charm:graduate-cap" 
               className='h-10 w-10 text-white'  
-              data-tooltip-id="tooltip" data-tooltip-content="About"
-              onClick={()=>{navigate('/About')}}
+              data-tooltip-id="tooltip" data-tooltip-content="Education"
+              onClick={() => scrollToDiv('education')}
             />
-            
             <Icon 
               icon="streamline:programming-script-code-code-angle-programming-file-bracket" 
               className='h-10 w-10 text-white' 
               data-tooltip-id="tooltip" data-tooltip-content="Technologies"
-              onClick={()=>{navigate('/Technologies')}}
+              onClick={() => scrollToDiv('technologies')}
             />
             <Icon 
               icon="bi:briefcase" 
               className='h-10 w-10 text-white'
               data-tooltip-id="tooltip" data-tooltip-content="Projects"
-              onClick={()=>{navigate('/Projects')}}
+              onClick={() => scrollToDiv('projects')}
             />
             <Icon 
               icon="fluent:contact-card-48-regular"  
               className='h-12 w-12 text-white'
               data-tooltip-id="tooltip" data-tooltip-content="Contact Me!"
-              onClick={()=>{navigate('/Contact')}}
+              onClick={() => scrollToDiv('contact')}
             />
           </div>
           <Icon 
             icon="mdi:arrow-down"  
-            className='h-10 w-10 text-white'/>
+            className='h-10 w-10 text-white'
+            data-tooltip-id="tooltip" data-tooltip-content="Scroll to Bottom"
+            onClick={ scrollToBottom }
+          />
         </nav>
   )
 }
 
 const Layout: React.FC<{ children: ReactNode }> = ({children}) => 
 {
+  // style={{ backgroundColor: 'rgba(137, 113, 203, 0.40)' }}
   return (
     <div className="flex w-full">
       <SideBar />
-      <div className='bg-tertiary w-full font-abel'>
+      <div className=' w-full font-abel'>
         {children}
       </div>
     </div>
@@ -71,17 +98,11 @@ const App: React.FC = () =>
 {
 
   return (
-    <div className='flex'>
-      <BrowserRouter>
+    <>
         <Layout>
-          <Routes>
-            <Route path="/" element={<Navigate to="/Home" replace />} />
-            <Route path="/Home" element={<Home /> } />
-            <Route path="/About" element={<About /> } />
-          </Routes>
+          <Content />
         </Layout>
-      </BrowserRouter>
-    </div>
+    </>
   )
 }
 

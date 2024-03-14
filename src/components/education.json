@@ -1,0 +1,30 @@
+[
+    {
+        "school": "Cavite State University - Tanza",
+        "award": "President's Lister",
+        "degree": "Bachelor of Science in Information Technology",
+        "end": "August 2024",
+        "isGraduated": false
+    },
+    {
+        "school": "Fiat Lux Academe",
+        "award": "With Honors",
+        "degree": "Senior High School",
+        "end": 2020,
+        "isGraduated": true
+    },
+    {
+        "school": "Unisan National High School",
+        "award": "With Honors",
+        "degree": "Junior High School",
+        "end": 2018,
+        "isGraduated": true
+    },
+    {
+        "school": "Domincan Academy",
+        "award": "2nd Honorable Mention",
+        "degree": "Primary School",
+        "end": 2014,
+        "isGraduated": true
+    }
+]
