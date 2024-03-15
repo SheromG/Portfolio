@@ -163,7 +163,7 @@ const Projects: React.FC = () =>
     }, [])
 
     return(
-        <div id='projects' className='min-h-screen w-full px-2 md:px-4 pt-6  md:mb-16 '>
+        <div id='projects' className='min-h-screen w-full px-2 md:px-4 pt-6 mb-4 md:mb-16 '>
             <h1 className='text-2xl md:text-5xl font-bold text-center md:mb-6'>My Projects</h1>
             
 
