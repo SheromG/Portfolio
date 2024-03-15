@@ -5,6 +5,18 @@ import './component.css'
 import Education from './education.json'
 import Project from './projects.json'
 
+import Picture1 from '../assets/Portfolio 1.png'
+import Picture2 from '../assets/Portfolio 2.png'
+import Picture3 from '../assets/Portfolio 3.png'
+import Picture4 from '../assets/Portfolio 4.png'
+import Picture5 from '../assets/Portfolio 5.png'
+import Picture6 from '../assets/Portfolio 6.png'
+import Picture7 from '../assets/Portfolio 7.png'
+import Picture8 from '../assets/Portfolio 8.png'
+import PDF from '../assets/Resume.pdf'
+
+let pictures = [ Picture1, Picture2, Picture3, Picture4, Picture5, Picture6, Picture7, Picture8 ]
+
 const Content:React.FC = () =>
 {
     return(
@@ -31,7 +43,7 @@ const Home: React.FC = () =>
                 <div className='flex justify-between max-w-[40rem]'>
                     <button
                         className='border-primary bg-primary text-white border-2 md:border-4 py-1 md:py-3 px-4 md:px-6 text-md md:text-xl rounded-3xl font-bold'
-                        onClick={() => window.open('../../public/Resume.pdf')}
+                        onClick={() => window.open(PDF)}
                     >
                         Resume
                     </button>
@@ -168,7 +180,7 @@ const Projects: React.FC = () =>
                                 className='min-w-72 md:min-w-96 h-[45rem] md:h-[45rem] bg-tertiary rounded-[1.25rem] border-4 border-primary flex flex-col items-center justify-between p-3 gap-6 shadow-lg shadow-primary'
                             >
                                 <div className='w-full mx-3 h-96 rounded-[0.5rem]'>
-                                    <img src={item.picture} className='object-cover h-full w-full rounded-xl' alt='Picture' />
+                                    <img src={pictures[index]} className='object-cover h-full w-full rounded-xl' alt='Picture' />
                                 </div>
                                 <div className='mx-auto max-w-[90%] flex flex-col h-full justify-between'>
                                     <h1 className = 'text-2xl md:text-4xl font-black text-white'>{item.title}</h1>
