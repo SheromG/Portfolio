@@ -1,58 +1,145 @@
 [
     {
-        "picture": "",
-        "title":"Title",
-        "description": "Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat alias similique amet. Facilis maiores quod aliquam repudiandae eaque",
-        "link": "",
-        "repository": ""
+        "picture": "../../public/Portfolio 1.png",
+        "title":"IVEDECO",
+        "description": "A hybrid application that I developed for our undergraduate capstone project. The system has three parts: a landing website, an android application, portal for admin and staff.",
+        "link": "https://ivedeco.vercel.app/",
+        "repository": "https://github.com/SheromG/IVEDECO-V4",
+        "technologies":
+        [
+            ["mdi:react", "ReactJS"],
+            ["mdi:tailwind", "TailwindCSS"],
+            ["mdi:git", "Git"],
+            ["mdi:firebase", "Firebase"],
+            ["mdi:github", "Github"],
+            ["codicon:vscode", "VS Code"],
+            ["mdi:npm", "NPM"],
+            ["simple-icons:vite", "Vite"],
+            ["gg:vercel", "Vercel"]
+        ]
     },
     {
-        "picture": "",
-        "title":"Title",
-        "description": "Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat alias similique amet. Facilis maiores quod aliquam repudiandae eaque",
-        "link": "",
-        "repository": ""
+        "picture": "../../public/Portfolio 2.png",
+        "title":"Imbentaryo ni Sherom",
+        "description": "An inventory system that  allows users to compute their business expenses, add, delete, view their inventory, and see the monthly report.",
+        "link": "https://imbentaryonisherom.vercel.app/",
+        "repository": "https://github.com/SheromG/Inventory-System",
+        "technologies":
+        [
+            ["mdi:react", "ReactJS"],
+            ["mdi:tailwind", "TailwindCSS"],
+            ["mdi:git", "Git"],
+            ["mdi:github", "Github"],
+            ["codicon:vscode", "VS Code"],
+            ["mdi:npm", "NPM"],
+            ["simple-icons:vite", "Vite"],
+            ["gg:vercel", "Vercel"]
+        ]
     },
     {
-        "picture": "",
-        "title":"Title",
-        "description": "Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat alias similique amet. Facilis maiores quod aliquam repudiandae eaque",
-        "link": "",
-        "repository": ""
+        "picture": "../../public/Portfolio 3.png",
+        "title":"ABC-Hotel",
+        "description": "A hotel reservation system that we created for our case study project. The website allows users to login, sign in, and book a room.",
+        "link": "https://sheromg.github.io/Hotel-Reservation-System/",
+        "repository": "https://github.com/SheromG/Hotel-Reservation-System",
+        "technologies":
+        [
+            ["flowbite:html-solid", "HTML5"],
+            ["flowbite:css-solid", "CSS3"],
+            ["tabler:brand-javascript", "Javascript"],
+            ["mdi:git", "Git"],
+            ["mdi:github", "Github"],
+            ["codicon:vscode", "VS Code"],
+            ["akar-icons:node-fill", "Node JS"],
+            ["skill-icons:expressjs-light", "Express JS"]
+        ]
     },
     {
-        "picture": "",
-        "title":"Title",
-        "description": "Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat alias similique amet. Facilis maiores quod aliquam repudiandae eaque",
-        "link": "",
-        "repository": ""
+        "picture": "../../public/Portfolio 4.png",
+        "title":"Portfolio",
+        "description": "A simple portfolio that showcases my education background, skills and some of my previous project",
+        "link": "https://portfolio-sheromg.vercel.app/",
+        "repository": "https://github.com/SheromG/Portfolio",
+        "technologies":
+        [
+            ["bxl:typescript", "Typescript"],
+            ["mdi:react", "ReactJS"],
+            ["gg:vercel", "Vercel"],
+            ["mdi:tailwind", "TailwindCSS"],
+            ["mdi:git", "Git"],
+            ["mdi:github", "Github"],
+            ["codicon:vscode", "VS Code"],
+            ["mdi:npm", "NPM"],
+            ["simple-icons:vite", "Vite"]
+        ]
     },
     {
-        "picture": "",
-        "title":"Title",
-        "description": "Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat alias similique amet. Facilis maiores quod aliquam repudiandae eaque",
+        "picture": "../../public/Portfolio 5.png",
+        "title":"Metflix",
+        "description": "A netflix clone that allows users to rent a movie. It also has an admin panel.",
         "link": "",
-        "repository": ""
+        "repository": "https://github.com/SheromG/WebSystems-and-Technologies/tree/main/Metflix",
+        "technologies":
+        [
+            ["mdi:language-php", "PHP"],
+            ["flowbite:html-solid", "HTML5"],
+            ["flowbite:css-solid", "CSS3"],
+            ["tabler:brand-javascript", "Javascript"],
+            ["simple-icons:mysql", "MySQL"],
+            ["mdi:git", "Git"],
+            ["mdi:github", "Github"],
+            ["codicon:vscode", "VS Code"]
+        ]
     },
     {
-        "picture": "",
-        "title":"Title",
-        "description": "Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat alias similique amet. Facilis maiores quod aliquam repudiandae eaque",
-        "link": "",
-        "repository": ""
+        "picture": "../../public/Portfolio 6.png",
+        "title":"Calculator",
+        "description": "A simple calculator with some informative information about graphs and function",
+        "link": "https://sheromg.github.io/Calculator/",
+        "repository": "https://github.com/SheromG/WebSystems-and-Technologies/tree/main/Calculator%20using%20ReactJS",
+        "technologies":
+        [
+            ["mdi:react", "ReactJS"],
+            ["flowbite:html-solid", "HTML5"],
+            ["flowbite:css-solid", "CSS3"],
+            ["mdi:git", "Git"],
+            ["mdi:github", "Github"],
+            ["codicon:vscode", "VS Code"],
+            ["mdi:npm", "NPM"],
+            ["gg:vercel", "Vercel"]
+        ]
     },
     {
-        "picture": "",
-        "title":"Title",
-        "description": "Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat alias similique amet. Facilis maiores quod aliquam repudiandae eaque",
-        "link": "",
-        "repository": ""
+        "picture": "../../public/Portfolio 7.png",
+        "title":"Granada Pizzeria",
+        "description": "An e-commerce website that allows users to buy pizza in pieces or in bundle.",
+        "link": "https://sheromg.github.io/Granada_Pizzeria/",
+        "repository": "https://github.com/SheromG/WebSystems-and-Technologies/tree/main/Granada%20Pizzeria",
+        "technologies":
+        [
+            ["flowbite:html-solid", "HTML5"],
+            ["flowbite:css-solid", "CSS3"],
+            ["tabler:brand-javascript", "Javascript"],
+            ["mdi:git", "Git"],
+            ["mdi:github", "Github"],
+            ["codicon:vscode", "VS Code"]
+        ]
     },
     {
-        "picture": "",
-        "title":"Title",
-        "description": "Description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat alias similique amet. Facilis maiores quod aliquam repudiandae eaque",
-        "link": "",
-        "repository": ""
+        "picture": "../../public/Portfolio 8.png",
+        "title":"Granada Panaderia",
+        "description": "An e-commerce website that allows users to buy bread, order a delivery, give feedback to the website.",
+        "link": "https://sheromg.github.io/Granada_Panaderia",
+        "repository": "https://github.com/SheromG/WebSystems-and-Technologies/tree/main/Granada%20Panaderia",
+        "technologies":
+        [
+            ["flowbite:html-solid", "HTML5"],
+            ["flowbite:css-solid", "CSS3"],
+            ["tabler:brand-javascript", "Javascript"],
+            ["mdi:language-php", "PHP"],
+            ["mdi:git", "Git"],
+            ["mdi:github", "Github"],
+            ["codicon:vscode", "VS Code"]
+        ]
     }
 ]

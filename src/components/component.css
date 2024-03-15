@@ -24,3 +24,47 @@
     position: absolute;
     left: -1.2rem;
 }
+
+.custom-scrollbar::-webkit-scrollbar 
+{
+    width: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track 
+{
+    background: #c7b3ff;
+    border-radius: 100px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb 
+{
+    background: #715dbd;
+    border-radius: 100px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover 
+{
+    background: #4d3686;
+}
+
+@media (max-width: 768px)
+{
+    .wrapper 
+    {
+        margin-left: 1rem; 
+    }
+
+    .node 
+    {
+        padding-left: 1rem; 
+        padding-bottom: 1rem; 
+    }
+
+    .node::before 
+    {
+        width: 1.5rem; 
+        height: 1.5rem; 
+        left: -0.9rem; 
+    }
+    
+}
