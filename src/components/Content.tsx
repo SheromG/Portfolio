@@ -5,17 +5,17 @@ import './component.css'
 import Education from './education.json'
 import Project from './projects.json'
 
-import Picture1 from '../assets/Portfolio 1.png'
-import Picture2 from '../assets/Portfolio 2.png'
-import Picture3 from '../assets/Portfolio 3.png'
-import Picture4 from '../assets/Portfolio 4.png'
-import Picture5 from '../assets/Portfolio 5.png'
-import Picture6 from '../assets/Portfolio 6.png'
-import Picture7 from '../assets/Portfolio 7.png'
-import Picture8 from '../assets/Portfolio 8.png'
+// import Picture1 from '../assets/Portfolio 1.png'
+// import Picture2 from '../assets/Portfolio 2.png'
+// import Picture3 from '../assets/Portfolio 3.png'
+// import Picture4 from '../assets/Portfolio 4.png'
+// import Picture5 from '../assets/Portfolio 5.png'
+// import Picture6 from '../assets/Portfolio 6.png'
+// import Picture7 from '../assets/Portfolio 7.png'
+// import Picture8 from '../assets/Portfolio 8.png'
 import PDF from '../assets/Resume.pdf'
 
-let pictures = [ Picture1, Picture2, Picture3, Picture4, Picture5, Picture6, Picture7, Picture8 ]
+// let pictures = [ Picture1, Picture2, Picture3, Picture4, Picture5, Picture6, Picture7, Picture8 ]
 
 const Content:React.FC = () =>
 {
@@ -102,6 +102,8 @@ const About: React.FC = () =>
 
 const Technologies: React.FC = () =>
 {
+    let className = 'h-12 md:h-24 w-12 md:w-24'
+
     return(
         <div id='technologies' className='md:min-h-screen w-full px-2 md:px-4 md:pt-6'>
             <h1 className='text-2xl md:text-5xl font-bold text-center'>My Tech Stack</h1>
@@ -109,27 +111,33 @@ const Technologies: React.FC = () =>
 
             <div className='w-full flex justify-center mt-6 md:mt-16 '>
                 <div className='w-full mx-auto grid grid-cols-4 md:grid-cols-5 place-items-center gap-4 md:gap-10'>
-                    <Icon icon="devicon:html5" className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="devicon:css3" className='h-12 md:h-24 w-12 md:w-24' />
-                    <Icon icon="devicon:javascript" className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="vscode-icons:file-type-reactjs" className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="devicon:tailwindcss" className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="devicon:firebase" className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="devicon:git" className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="devicon:github" className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="devicon:python" className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="devicon:cplusplus" className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="devicon:vscode" className='h-12 md:h-24 w-12 md:w-24'/>
 
-                    <Icon icon="logos:mysql" className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="devicon:mongodb-wordmark" className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="devicon:npm-wordmark" className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="vscode-icons:file-type-vite" className='h-12 md:h-24 w-12 md:w-244'/>
-                    <Icon icon="devicon:vercel-wordmark" className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="devicon:photoshop"  className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="skill-icons:illustrator"  className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="skill-icons:premiere"  className='h-12 md:h-24 w-12 md:w-24'/>
-                    <Icon icon="devicon:xd" className='h-12 md:h-24 w-12 md:w-24'/>
+                    <Icon icon="devicon:html5" className={className}/>
+                    <Icon icon="devicon:css3" className={className} />
+                    <Icon icon="devicon:javascript" className={className}/>
+                    <Icon icon="vscode-icons:file-type-reactjs" className={className}/>
+                    <Icon icon="devicon:tailwindcss"className={className}/>
+                    <Icon icon="devicon:firebase" className={className}/>
+                    <Icon icon="devicon:git" className={className}/>
+                    <Icon icon="devicon:github" className={className}/>
+                    <Icon icon="devicon:python" className={className}/>
+                    <Icon icon="devicon:cplusplus" className={className}/>
+                    <Icon icon="devicon:vscode" className={className}/>
+                    <Icon icon="logos:mysql" className={className}/>
+                    <Icon icon="devicon:mongodb-wordmark" className={className}/>
+                    <Icon icon="devicon:npm-wordmark" className={className}/>
+                    <Icon icon="vscode-icons:file-type-vite" className={className}/>
+                    <Icon icon="devicon:vercel-wordmark" className={className}/>
+                    <Icon icon="devicon:nodejs-wordmark" className={className}/>
+                    <Icon icon="skill-icons:expressjs-light" className={className}/>
+                    <Icon icon="logos:java" className={className}/>
+                    <Icon icon="vscode-icons:file-type-php" className={className}/>
+                    <Icon icon="devicon:photoshop"  className={className}/>
+                    <Icon icon="skill-icons:illustrator"  className={className}/>
+                    <Icon icon="skill-icons:premiere"  className={className}/>
+                    <Icon icon="skill-icons:aftereffects" className={className}/>
+                    <Icon icon="devicon:xd" className={className}/>
+
                 </div>
             </div>
         </div>
@@ -158,10 +166,10 @@ const Projects: React.FC = () =>
                 children[i].setAttribute('index', String(i + 1))
             }
         }
-
         return () => { observer.disconnect() }
     }, [])
 
+    
     return(
         <div id='projects' className='min-h-screen w-full px-2 md:px-4 pt-6 mb-4 md:mb-16 '>
             <h1 className='text-2xl md:text-5xl font-bold text-center md:mb-6'>My Projects</h1>
@@ -180,7 +188,7 @@ const Projects: React.FC = () =>
                                 className='min-w-72 md:min-w-96 h-[45rem] md:h-[45rem] bg-tertiary rounded-[1.25rem] border-4 border-primary flex flex-col items-center justify-between p-3 gap-6 shadow-lg shadow-primary'
                             >
                                 <div className='w-full mx-3 h-96 rounded-[0.5rem]'>
-                                    <img src={pictures[index]} className='object-cover h-full w-full rounded-xl' alt='Picture' />
+                                    <img src={item.picture} className='object-cover h-full w-full rounded-xl' alt='Picture' />
                                 </div>
                                 <div className='mx-auto max-w-[90%] flex flex-col h-full justify-between'>
                                     <h1 className = 'text-2xl md:text-4xl font-black text-white'>{item.title}</h1>
@@ -188,9 +196,9 @@ const Projects: React.FC = () =>
 
                                     <div className='flex flex-wrap w-full gap-1 md:gap-2 '>
                                     {
-                                        item.technologies?.map((tech) => 
+                                        item.technologies?.map((tech, index) => 
                                         (
-                                            <div className='flex gap-1 md:gap-2 items-center justify-center border-2 border-primary bg-secondary rounded-full px-1 md:px-2'>
+                                            <div  key={index} className='flex gap-1 md:gap-2 items-center justify-center border-2 border-primary bg-secondary rounded-full px-1 md:px-2'>
                                                 <Icon  icon={tech[0]} className='h-4 md:h-6 w-4 md:w-6 text-white p-0.5'/>
                                                 <p className='text-sm md:text-md font-black text-white select-none'>{tech[1]}</p>
                                             </div>

@@ -1,6 +1,6 @@
 [
     {
-        "picture": "../../public/Portfolio 1.png",
+        "picture": "/Portfolio 1.png",
         "title":"IVEDECO",
         "description": "A hybrid application that I developed for our undergraduate capstone project. The system has three parts: a landing website, an android application, portal for admin and staff.",
         "link": "https://ivedeco.vercel.app/",
@@ -13,13 +13,13 @@
             ["mdi:firebase", "Firebase"],
             ["mdi:github", "Github"],
             ["codicon:vscode", "VS Code"],
-            ["mdi:npm", "NPM"],
+            ["ri:java-fill", "Java"],
             ["simple-icons:vite", "Vite"],
             ["gg:vercel", "Vercel"]
         ]
     },
     {
-        "picture": "../../public/Portfolio 2.png",
+        "picture": "/Portfolio 2.png",
         "title":"Imbentaryo ni Sherom",
         "description": "An inventory system that  allows users to compute their business expenses, add, delete, view their inventory, and see the monthly report.",
         "link": "https://imbentaryonisherom.vercel.app/",
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "picture": "../../public/Portfolio 3.png",
+        "picture": "/Portfolio 3.png",
         "title":"ABC-Hotel",
         "description": "A hotel reservation system that we created for our case study project. The website allows users to login, sign in, and book a room.",
         "link": "https://sheromg.github.io/Hotel-Reservation-System/",
@@ -55,7 +55,7 @@
         ]
     },
     {
-        "picture": "../../public/Portfolio 4.png",
+        "picture": "/Portfolio 4.png",
         "title":"Portfolio",
         "description": "A simple portfolio that showcases my education background, skills and some of my previous project",
         "link": "https://portfolio-sheromg.vercel.app/",
@@ -74,7 +74,23 @@
         ]
     },
     {
-        "picture": "../../public/Portfolio 5.png",
+        "picture": "/Portfolio 5.png",
+        "title":"Bato Papel Gunting",
+        "description": "An exercise activity in The Odin Project. Rock Paper Scissors game using HTML, CSS, and JavaScript.",
+        "link": "https://sheromg.github.io/TheOdinProject/3_rock_paper_scissors/",
+        "repository": "https://github.com/SheromG/TheOdinProject/tree/main/3_rock_paper_scissors",
+        "technologies":
+        [
+            ["flowbite:html-solid", "HTML5"],
+            ["flowbite:css-solid", "CSS3"],
+            ["tabler:brand-javascript", "Javascript"],
+            ["mdi:git", "Git"],
+            ["mdi:github", "Github"],
+            ["codicon:vscode", "VS Code"]
+        ]
+    },
+    {
+        "picture": "/Portfolio 6.png",
         "title":"Metflix",
         "description": "A netflix clone that allows users to rent a movie. It also has an admin panel.",
         "link": "",
@@ -92,7 +108,7 @@
         ]
     },
     {
-        "picture": "../../public/Portfolio 6.png",
+        "picture": "/Portfolio 7.png",
         "title":"Calculator",
         "description": "A simple calculator with some informative information about graphs and function",
         "link": "https://sheromg.github.io/Calculator/",
@@ -110,7 +126,7 @@
         ]
     },
     {
-        "picture": "../../public/Portfolio 7.png",
+        "picture": "/Portfolio 8.png",
         "title":"Granada Pizzeria",
         "description": "An e-commerce website that allows users to buy pizza in pieces or in bundle.",
         "link": "https://sheromg.github.io/Granada_Pizzeria/",
@@ -126,7 +142,7 @@
         ]
     },
     {
-        "picture": "../../public/Portfolio 8.png",
+        "picture": "/Portfolio 9.png",
         "title":"Granada Panaderia",
         "description": "An e-commerce website that allows users to buy bread, order a delivery, give feedback to the website.",
         "link": "https://sheromg.github.io/Granada_Panaderia",
