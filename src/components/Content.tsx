@@ -4,18 +4,9 @@ import { Icon } from '@iconify/react'
 import './component.css'
 import Education from './education.json'
 import Project from './projects.json'
+import Tech from './tech.json'
 
-// import Picture1 from '../assets/Portfolio 1.png'
-// import Picture2 from '../assets/Portfolio 2.png'
-// import Picture3 from '../assets/Portfolio 3.png'
-// import Picture4 from '../assets/Portfolio 4.png'
-// import Picture5 from '../assets/Portfolio 5.png'
-// import Picture6 from '../assets/Portfolio 6.png'
-// import Picture7 from '../assets/Portfolio 7.png'
-// import Picture8 from '../assets/Portfolio 8.png'
 import PDF from '../assets/Resume.pdf'
-
-// let pictures = [ Picture1, Picture2, Picture3, Picture4, Picture5, Picture6, Picture7, Picture8 ]
 
 const Content:React.FC = () =>
 {
@@ -111,33 +102,16 @@ const Technologies: React.FC = () =>
 
             <div className='w-full flex justify-center mt-6 md:mt-16 '>
                 <div className='w-full mx-auto grid grid-cols-4 md:grid-cols-5 place-items-center gap-4 md:gap-10'>
-
-                    <Icon icon="devicon:html5" className={className}/>
-                    <Icon icon="devicon:css3" className={className} />
-                    <Icon icon="devicon:javascript" className={className}/>
-                    <Icon icon="vscode-icons:file-type-reactjs" className={className}/>
-                    <Icon icon="devicon:tailwindcss"className={className}/>
-                    <Icon icon="devicon:firebase" className={className}/>
-                    <Icon icon="devicon:git" className={className}/>
-                    <Icon icon="devicon:github" className={className}/>
-                    <Icon icon="devicon:python" className={className}/>
-                    <Icon icon="devicon:cplusplus" className={className}/>
-                    <Icon icon="devicon:vscode" className={className}/>
-                    <Icon icon="logos:mysql" className={className}/>
-                    <Icon icon="devicon:mongodb-wordmark" className={className}/>
-                    <Icon icon="devicon:npm-wordmark" className={className}/>
-                    <Icon icon="vscode-icons:file-type-vite" className={className}/>
-                    <Icon icon="devicon:vercel-wordmark" className={className}/>
-                    <Icon icon="devicon:nodejs-wordmark" className={className}/>
-                    <Icon icon="skill-icons:expressjs-light" className={className}/>
-                    <Icon icon="logos:java" className={className}/>
-                    <Icon icon="vscode-icons:file-type-php" className={className}/>
-                    <Icon icon="devicon:photoshop"  className={className}/>
-                    <Icon icon="skill-icons:illustrator"  className={className}/>
-                    <Icon icon="skill-icons:premiere"  className={className}/>
-                    <Icon icon="skill-icons:aftereffects" className={className}/>
-                    <Icon icon="devicon:xd" className={className}/>
-
+                {
+                    Tech.map((item, index)=> 
+                        <Icon 
+                            key={index} 
+                            icon= {item.icon} 
+                            className={className}  
+                            data-tooltip-id="tooltip" 
+                            data-tooltip-content={item['data-tooltip-content']} 
+                        />)
+                }
                 </div>
             </div>
         </div>
