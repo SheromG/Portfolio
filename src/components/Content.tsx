@@ -30,7 +30,7 @@ const Home: React.FC = () =>
             <div className='flex flex-col gap-4'>
                 <h4 className='text-xl md:text-2xl font-bold'>Hello World!</h4>
                 <h1 className='text-3xl md:text-5xl'>I'm <span className='text-primary font-black'>Sherom</span> Granada</h1>
-                <div className='max-w-[40rem] text-xl md:text-2xl text-justify font-normal '>A <span className='text-primary font-black'>Software Engineer</span> passionate about building innovative digital solutions. With expertise in frontend development, I specialize in crafting intuitive user interfaces using a variety of technologies.<br/><br/> Let's connect and create something extraordinary!</div>
+                <div className='max-w-[40rem] text-xl md:text-2xl text-justify font-normal '>A <span className='text-primary font-black'>Full Stack Developer</span> passionate about building innovative digital solutions. With expertise in frontend development, I specialize in crafting intuitive user interfaces using a variety of technologies.<br/><br/> Let's connect and create something extraordinary!</div>
                 <div className='flex justify-between max-w-[40rem]'>
                     <button
                         className='border-primary bg-primary text-white border-2 md:border-4 py-1 md:py-3 px-4 md:px-6 text-md md:text-xl rounded-3xl font-bold'

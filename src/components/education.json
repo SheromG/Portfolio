@@ -1,10 +1,10 @@
 [
     {
         "school": "Cavite State University - Tanza",
-        "award": "President's Lister",
+        "award": "Magna Cum Laude",
         "degree": "Bachelor of Science in Information Technology",
-        "end": "August 2024",
-        "isGraduated": false
+        "end": "September 2024",
+        "isGraduated": true
     },
     {
         "school": "Fiat Lux Academe",
