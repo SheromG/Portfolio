@@ -12,16 +12,32 @@
         "data-tooltip-content": "JavaScript"
     },
     {
-        "icon": "vscode-icons:file-type-reactjs",
-        "data-tooltip-content": "ReactJS"
+        "icon": "devicon:typescript",
+        "data-tooltip-content": "TypeScript"
     },
     {
         "icon": "devicon:tailwindcss",
         "data-tooltip-content": "Tailwind CSS"
     },
     {
-        "icon": "devicon:firebase",
-        "data-tooltip-content": "Firebase"
+        "icon": "vscode-icons:file-type-reactjs",
+        "data-tooltip-content": "ReactJS"
+    },
+    {
+        "icon": "vscode-icons:file-type-vue",
+        "data-tooltip-content": "VueJS"
+    },
+    {
+        "icon": "devicon:vuetify",
+        "data-tooltip-content": "Vuetify 3"
+    },
+    {
+        "icon": "devicon:nodejs-wordmark",
+        "data-tooltip-content": "NodeJS"
+    },
+    {
+        "icon": "skill-icons:expressjs-light",
+        "data-tooltip-content": "ExpressJS"
     },
     {
         "icon": "devicon:git",
@@ -32,16 +48,16 @@
         "data-tooltip-content": "GitHub"
     },
     {
-        "icon": "devicon:python",
-        "data-tooltip-content": "Python"
-    },
-    {
-        "icon": "devicon:cplusplus",
-        "data-tooltip-content": "C++"
+        "icon": "devicon:vercel-wordmark",
+        "data-tooltip-content": "Vercel"
     },
     {
         "icon": "devicon:vscode",
         "data-tooltip-content": "Visual Studio Code"
+    },
+    {
+        "icon": "devicon:firebase",
+        "data-tooltip-content": "Firebase"
     },
     {
         "icon": "logos:mysql",
@@ -52,24 +68,20 @@
         "data-tooltip-content": "MongoDB"
     },
     {
-        "icon": "devicon:npm-wordmark",
-        "data-tooltip-content": "NPM"
+        "icon": "logos:nvm",
+        "data-tooltip-content": "NVM"
     },
     {
         "icon": "vscode-icons:file-type-vite",
         "data-tooltip-content": "ViteJS"
     },
     {
-        "icon": "devicon:vercel-wordmark",
-        "data-tooltip-content": "Vercel"
+        "icon": "devicon:python",
+        "data-tooltip-content": "Python"
     },
     {
-        "icon": "devicon:nodejs-wordmark",
-        "data-tooltip-content": "NodeJS"
-    },
-    {
-        "icon": "skill-icons:expressjs-light",
-        "data-tooltip-content": "ExpressJS"
+        "icon": "devicon:cplusplus",
+        "data-tooltip-content": "C++"
     },
     {
         "icon": "logos:java",
