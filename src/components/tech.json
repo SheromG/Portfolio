@@ -48,8 +48,16 @@
         "data-tooltip-content": "GitHub"
     },
     {
+        "icon": "devicon:bitbucket",
+        "data-tooltip-content": "Bitbucket"
+    },
+    {
         "icon": "devicon:vercel-wordmark",
         "data-tooltip-content": "Vercel"
+    },
+    {
+        "icon": "skill-icons:aws-dark",
+        "data-tooltip-content": "AWS"
     },
     {
         "icon": "devicon:vscode",
