@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react'
-import Picture from '../assets/1x1.png'
+import Picture from '../assets/1x1.jpg'
 import { Icon } from '@iconify/react'
 import './component.css'
 import Education from './education.json'
