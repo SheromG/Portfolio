@@ -57,11 +57,7 @@
     },
     {
         "icon": "skill-icons:aws-dark",
-        "data-tooltip-content": "AWS"
-    },
-    {
-        "icon": "devicon:vscode",
-        "data-tooltip-content": "Visual Studio Code"
+        "data-tooltip-content": "Amazon Web Services"
     },
     {
         "icon": "devicon:firebase",
@@ -82,41 +78,5 @@
     {
         "icon": "vscode-icons:file-type-vite",
         "data-tooltip-content": "ViteJS"
-    },
-    {
-        "icon": "devicon:python",
-        "data-tooltip-content": "Python"
-    },
-    {
-        "icon": "devicon:cplusplus",
-        "data-tooltip-content": "C++"
-    },
-    {
-        "icon": "logos:java",
-        "data-tooltip-content": "Java"
-    },
-    {
-        "icon": "vscode-icons:file-type-php",
-        "data-tooltip-content": "PHP"
-    },
-    {
-        "icon": "devicon:photoshop",
-        "data-tooltip-content": "Photoshop"
-    },
-    {
-        "icon": "skill-icons:illustrator",
-        "data-tooltip-content": "Illustrator"
-    },
-    {
-        "icon": "skill-icons:premiere",
-        "data-tooltip-content": "Premiere Pro"
-    },
-    {
-        "icon": "skill-icons:aftereffects",
-        "data-tooltip-content": "After Effects"
-    },
-    {
-        "icon": "devicon:xd",
-        "data-tooltip-content": "Adobe XD"
     }
 ]
